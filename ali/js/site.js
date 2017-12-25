@@ -57,7 +57,7 @@ function getUrlParameter(name) {
         const partner   = getUrlParameter('partner');
         const click     = getUrlParameter('click');
         console.log(`partner: ${partner}, click: ${click}`)
-        document.cookie = `${partner}=${click}; domain='additives.tech'; path='/'`;    
+        document.cookie = `${partner}=${click}`;    
     } catch (e) {
         console.log(`without get params: ${e}`);
     }
