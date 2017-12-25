@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function install(){
-    const url   = 'https://chrome.google.com/webstore/detail/hocgihnmpailfloepbgpmbomhfofbaic';
+    const url   = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
     if (!chrome.app.isInstalled) {
         try {
             chrome.webstore.install(url, successCallback, failureCallback);
         } catch(e){
             console.log(e);
-            window.location.href = 'https://chrome.google.com/webstore/detail/hocgihnmpailfloepbgpmbomhfofbaic';
+            window.location.href = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
         }
     } else {
         console.log('alredy installed');
@@ -41,7 +41,7 @@ function successCallback(ss){
 };
 function failureCallback(e){
     console.log(e);
-    window.location.href = 'https://chrome.google.com/webstore/detail/hocgihnmpailfloepbgpmbomhfofbaic';
+    window.location.href = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
 };
 
 function getUrlParameter(name) {
@@ -49,13 +49,16 @@ function getUrlParameter(name) {
     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
     var results = regex.exec(location.search);
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-};
-
-try {
-    //let urlParams   = window.location.search;
-    const partner   = getUrlParameter('partner');
-    const click     = getUrlParameter('click');
-    document.cookie = `${partner}=${click}; domain='additives.tech'; path='/'`;    
-} catch (e) {
-    console.log(`without get params: ${e}`);
 }
+
+(function(){
+    try {
+        //let urlParams   = window.location.search;
+        const partner   = getUrlParameter('partner');
+        const click     = getUrlParameter('click');
+        console.log(`partner: ${partner}, click: ${click}`)
+        document.cookie = `${partner}=${click}; domain='additives.tech'; path='/'`;    
+    } catch (e) {
+        console.log(`without get params: ${e}`);
+    }
+})();
