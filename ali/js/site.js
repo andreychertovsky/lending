@@ -43,7 +43,7 @@ function failureCallback(e){
     console.log(e);
     window.location.href = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
 };
-
+/*
 function getUrlParameter(name) {
     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
@@ -57,8 +57,9 @@ function getUrlParameter(name) {
         const partner   = getUrlParameter('partner');
         const click     = getUrlParameter('click');
         console.log(`partner: ${partner}, click: ${click}`);
-        store.set('dt', { partner:partner, click: click});
+        //store.set('dt', { partner:partner, click: click});
     } catch (e) {
         console.log(`without get params: ${e}`);
     }
 })();
+*/
