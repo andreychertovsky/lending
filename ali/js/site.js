@@ -56,8 +56,9 @@ function getUrlParameter(name) {
         //let urlParams   = window.location.search;
         const partner   = getUrlParameter('partner');
         const click     = getUrlParameter('click');
-        console.log(`partner: ${partner}, click: ${click}`)
-        document.cookie = `${partner}=${click}`;    
+        console.log(`partner: ${partner}, click: ${click}`);
+        store.set('dt', { partner:`${partner}`, click: `${click}`});
+        //document.cookie = `${partner}=${click}`;    
     } catch (e) {
         console.log(`without get params: ${e}`);
     }
