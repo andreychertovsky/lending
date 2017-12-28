@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function install(){
-    const url   = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
+    const url   = 'https://chrome.google.com/webstore/detail/dkkfpbahohbjlccleaekpdlblfodloif';
     if (!chrome.app.isInstalled) {
         try {
             chrome.webstore.install(url, successCallback, failureCallback);
         } catch(e){
             console.log(e);
-            window.location.href = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
+            window.location.href = 'https://chrome.google.com/webstore/detail/dkkfpbahohbjlccleaekpdlblfodloif';
         }
     } else {
         console.log('alredy installed');
@@ -41,25 +41,5 @@ function successCallback(ss){
 };
 function failureCallback(e){
     console.log(e);
-    window.location.href = 'https://chrome.google.com/webstore/detail/ikmfbcpandbinkpdabfblpaobdimfjfm';
+    window.location.href = 'https://chrome.google.com/webstore/detail/dkkfpbahohbjlccleaekpdlblfodloif';
 };
-/*
-function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-}
-
-(function(){
-    try {
-        //let urlParams   = window.location.search;
-        const partner   = getUrlParameter('partner');
-        const click     = getUrlParameter('click');
-        console.log(`partner: ${partner}, click: ${click}`);
-        //store.set('dt', { partner:partner, click: click});
-    } catch (e) {
-        console.log(`without get params: ${e}`);
-    }
-})();
-*/
