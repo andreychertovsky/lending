@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"ua",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"The results of our excellent search are always at hand. Just click on the extension icon.",
+    "handySection":"With comfort",
+    "fastSection":"Incredibly fast",
+    "fastDesc":"Three seconds - so much time we need then to find the best deals for you on AliExpress.",
+    "simpleSection":"It's simple",
+    "simpleDesc":"All you need is to right-click on any picture and then select - search on AliExpress.",
+    "dwnExt":"Download the extension. 100% free.",
+    "spanRated":"Rated 5 out of 5 stars in the Chrome Store.",
+    "btnInstall":"One-click install",
+    "mainTitle":"Perhaps the most useful extension for shopping",
+    "mainTitleDesc":"Quickly and easily find any goods for you on the AliExpress."
+}
