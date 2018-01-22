@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"jp",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"私たちのスペース検索の結果は、常に手元にあります。拡張機能アイコンをクリックするだけです。",
+    "handySection":"快適さで",
+    "fastSection":"信じられないほど速い",
+    "fastDesc":"3秒間 - AliExpressで最良の取引を見つけるために展開する必要がある正確な時間です。",
+    "simpleSection":"それは簡単です",
+    "simpleDesc":"必要なのは、画像を右クリックしてAliExpressで検索するだけです。",
+    "dwnExt":"拡張機能をインストールします。それは絶対に自由です。",
+    "btnInstall":"インストール",
+    "mainTitle":"写真からAliexpress.comで最高の製品を探す",
+    "mainTitleDesc":"ちょうど今すぐ、拡張機能をインストールして、お気に入りの製品の退屈な検索に費やす時間を減らしてください。"
+}

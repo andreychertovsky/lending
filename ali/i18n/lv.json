@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"lv",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Mūsu meklēšanas telpā rezultāti vienmēr ir pie rokas. Vienkārši noklikšķiniet uz paplašinājuma ikonas. ",
+    "handySection":"Ar komfortu",
+    "fastSection":"Neticami ātri",
+    "fastDesc":"Trīs sekundes -. tieši laikā jums ir nepieciešams paplašināt, lai jums pakaļ labākos piedāvājumus par AliExpress ",
+    "simpleSection":"Tas ir vienkārši",
+    "simpleDesc":"Viss, kas Jums nepieciešams - peles labo pogu noklikšķiniet uz jebkuru attēlu, un pēc tam izvēlieties - meklēt AliExpress. ",
+    "dwnExt":"Instalējiet paplašinājumu. Tas ir absolūti bezmaksas. ",
+    "btnInstall":"Instalēt",
+    "btnInstallTwo":"Instalēt",
+    "mainTitle":"Meklēt labākajiem produktiem Aliexpress.com attēlu",
+    "mainTitleDesc":"Tikko instalēt paplašinājumu un tērēt mazāk laika garlaicīga meklējot saviem iecienītākajiem produktiem. "
+}

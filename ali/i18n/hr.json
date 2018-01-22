@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"hr",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"התוצאות של חיפוש החלל שלנו תמיד בהישג יד. פשוט לחץ על סמל התוסף.",
+    "handySection":"בנוחות",
+    "fastSection":"מהר מאוד",
+    "fastDesc":"שלוש שניות - בדיוק כמו הרבה זמן אתה צריך להרחיב כדי למצוא את העסקאות הטובות ביותר עבורך על Aliexpress",
+    "simpleSection":"זה קל",
+    "simpleDesc":"כל מה שאתה צריך - לחץ לחיצה ימנית על כל תמונה ולאחר מכן בחר - לחפש AliExpress",
+    "dwnExt":"התקן את התוסף. זה לגמרי בחינם.",
+    "btnInstall":"התקן",
+    "btnInstallTwo":"התקן",
+    "mainTitle":"חפש את המוצרים הטובים ביותר על Aliexpress.com על התמונה",
+    "mainTitleDesc":"כל שעליך לעשות הוא להתקין את התוסף עכשיו ולהוציא פחות זמן על חיפושים מייגעים למוצרים המועדפים עליך."
+}

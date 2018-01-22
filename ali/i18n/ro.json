@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"ro",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Rezultatele căutării noastre în spațiu sunt întotdeauna la îndemânădoar faceți clic pe pictograma extensie. ",
+    "handySection":"Cu confort",
+    "fastSection":"Incredibil de rapid",
+    "fastDesc":"Trei secunde - exact momentul în care trebuie să vă extindeți pentru a găsi cele mai bune oferte pe AliExpress.",
+    "simpleSection":"Este simplu",
+    "simpleDesc":"Tot ce ai nevoie este să faceți clic dreapta pe orice imagine și apoi să selectați - căutați pe AliExpress.",
+    "dwnExt":"Instalați extensia. Este absolut gratuit. ",
+    "btnInstall":"Instalare",
+    "btnInstallTwo":"Instalare",
+    "mainTitle":"Căutați cele mai bune produse de pe imagine pe Aliexpress.com",
+    "mainTitleDesc":"Doar acum, instalați extensia și petreceți mai puțin timp pe căutări obositoare pentru produsele dvs. preferate."
+}

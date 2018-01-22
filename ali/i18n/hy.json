@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"hy",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Az űrkutatási eredményeink mindig elérhetőek. Csak kattintson a kiterjesztés ikonra. ",
+    "handySection":"Kényelem",
+    "fastSection":"Hihetetlenül gyors",
+    "fastDesc":"Három másodperc - pontosan az időt meg kell bővíteni, hogy elhozzuk a legjobb ajánlatot a AliExpress.",
+    "simpleSection":"Ez egyszerű",
+    "simpleDesc":"Minden, amire szükség van - a jobb gombbal bármelyik képre, majd válassza - keresni a AliExpress.",
+    "dwnExt":"Telepítse a kiterjesztést. Teljesen ingyenes. ",
+    "btnInstall":"Telepítés",
+    "btnInstallTwo":"Telepítés",
+    "mainTitle":"keresése a legjobb termék Aliexpress.com a képen",
+    "mainTitleDesc":"Csak most telepíteni a bővítményt, és kevesebb időt töltenek a fáradságos keresés kedvenc termékeket."
+}

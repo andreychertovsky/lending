@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"it",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"I risultati della nostra ricerca spaziale sono sempre a portata di mano. Basta fare clic sull\"icona di estensione. ",
+    "handySection":"Con comodità",
+    "fastSection":"Incredibilmente veloce",
+    "fastDesc":"Tre secondi - esattamente il tempo che devi espandere per trovare le migliori offerte su AliExpress.",
+    "simpleSection":"È semplice",
+    "simpleDesc":"Tutto ciò che serve è fare clic con il tasto destro del mouse su qualsiasi immagine e selezionare - cerca su AliExpress.",
+    "dwnExt":"Installa l\"estensione. È assolutamente gratuito. ",
+    "btnInstall":"Install",
+    "btnInstallTwo":"Install",
+    "mainTitle":"Cerca i prodotti migliori su Aliexpress.com dall\"immagine",
+    "mainTitleDesc":"Proprio adesso, installa l\"estensione e dedica meno tempo a ricerche noiose per i tuoi prodotti preferiti."
+}

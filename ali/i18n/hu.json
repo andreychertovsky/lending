@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"hu",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Mūsų paieškos erdvėje rezultatai yra visada prieinami. Tiesiog spustelėkite piktogramos piktogramą. ",
+    "handySection":"Su komfortu",
+    "fastSection":"Neįtikėtinai greitai",
+    "fastDesc":"Trys sekundės - tiksliai laikas, kurį reikia išplėsti, norint rasti geriausius pasiūlymus AliExpress\"e.",
+    "simpleSection":"Tai paprasta",
+    "simpleDesc":"Viskas ko jums reikia, kad dešiniuoju pelės mygtuku spustelėkite bet kurį paveikslėlį, tada pasirinkite - ieškokite AliExpress.",
+    "dwnExt":"Įdiekite plėtinį. Tai visiškai nemokama. ",
+    "btnInstall":"Įdiegti",
+    "btnInstallTwo":"Įdiegti",
+    "mainTitle":"Ieškokite geriausių produktų Aliexpress.com iš paveikslėlio",
+    "mainTitleDesc":"Tiesiog dabar, įdiekite plėtinį ir praleidžiate mažiau laiko, kad nuobodūs mėgstamų produktų paieška."
+}

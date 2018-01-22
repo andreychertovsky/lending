@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"cz",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Výsledky našeho hledání prostoru je vždy po ruce. Stačí kliknout na ikonu rozšíření.",
+    "handySection":"S komfortem",
+    "fastSection":"Neuvěřitelně rychlý",
+    "fastDesc":"Tři vteřiny. - přesně doba, kterou je třeba rozšířit, k vyzvednutí vás nejlepší nabídky na aliexpress",
+    "simpleSection":"Je to jednoduché",
+    "simpleDesc":"Vše, co potřebujete - pravým tlačítkem myši na libovolný obrázek a vyberte - hledat na aliexpress.",
+    "dwnExt":"Nainstalujte příponu. Je to zcela zdarma.",
+    "btnInstall":"Nainstalovat",
+    "btnInstallTwo":"Nainstalovat",
+    "mainTitle":"Hledání nejlepší produkty na Aliexpress.com obraz",
+    "mainTitleDesc":"Právě teď nainstalovat rozšíření a stráví méně času na únavné hledání pro své oblíbené produkty."
+}

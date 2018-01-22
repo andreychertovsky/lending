@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"nl",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"De resultaten van ons zoeken in de ruimte zijn altijd bij de hand. Klik gewoon op het extensiepictogram. ",
+    "handySection":"Met comfort",
+    "fastSection":"Ongelooflijk snel",
+    "fastDesc":"Drie seconden - precies de tijd die u nodig hebt om uit te breiden om de beste deals voor AliExpress te vinden.",
+    "simpleSection":"Het is eenvoudig",
+    "simpleDesc":"Het enige dat u nodig hebt, is door met de rechtermuisknop op een afbeelding te klikken en vervolgens te selecteren - zoeken op AliExpress.",
+    "dwnExt":"Installeer de extensie. Het is helemaal gratis. ",
+    "btnInstall":"Installeren",
+    "btnInstallTwo":"Installeren",
+    "mainTitle":"Kijk voor de beste producten op Aliexpress.com van de afbeelding",
+    "mainTitleDesc":"Installeer nu de extensie en besteed minder tijd aan saaie zoekopdrachten naar uw favoriete producten."
+}

@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"tr",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Uzay arama sonuçlarımız her zaman hazır. Sadece uzantı simgesini tıklayın.",
+    "handySection":"Konforlu",
+    "fastSection":"İnanılmaz derecede hızlı",
+    "fastDesc":"ТÜç saniye - tam olarak AliExpress in en iyi fırsatlarını bulmak için genişlemeniz gereken zaman.",
+    "simpleSection":"Basittir",
+    "simpleDesc":"İhtiyacınız olan tek şey herhangi bir resme sağ tıklayın ve ardından - AliExpress te arama yapın.",
+    "dwnExt":"Uzantıyı yükle. Kesinlikle özgürdür.",
+    "btnInstall":"Yükle",
+    "mainTitle":"Resimden Aliexpress.com da en iyi ürünleri arayın",
+    "mainTitleDesc":"Şu anda, uzantıyı kurun ve sık kullandığınız ürünler için sıkıcı aramalarda daha az zaman harcayın."
+}

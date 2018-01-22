@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let lang    = (navigator.language || navigator.systemLanguage || navigator.userLanguage).substr(0, 2).toLowerCase();
+    let lang    = getUrlParameter('lang') || (navigator.language || navigator.systemLanguage || navigator.userLanguage).substr(0, 2).toLowerCase();
     switch (lang) {
         case 'ru':
             document.getElementById("handyDesc").innerHTML = 'Результаты нашего космического поиска всегда под рукой. Просто кликни по иконке расширения.';
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('mainTitle').innerHTML = 'Carilah produk terbaik di Aliexpress.com dari gambar';
             document.getElementById('mainTitleDesc').innerHTML = 'Saat ini juga, pasang ekstensi dan luangkan sedikit waktu untuk pencarian yang membosankan untuk produk favorit Anda.';
             break;
-        case 'ja':
+        case 'jp':
             document.getElementById("handyDesc").innerHTML = '私たちのスペース検索の結果は、常に手元にあります。拡張機能アイコンをクリックするだけです。 ';
             document.getElementById("handySection").innerHTML = '快適さで';
             document.getElementById("fastSection").innerHTML = '信じられないほど速い';
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('mainTitle').innerHTML = '写真からAliexpress.comで最高の製品を探す';
             document.getElementById('mainTitleDesc').innerHTML = 'ちょうど今すぐ、拡張機能をインストールして、お気に入りの製品の退屈な検索に費やす時間を減らしてください。';
             break;
-        case 'ko':
+        case 'kr':
             document.getElementById("handyDesc").innerHTML = '우리의 공간 검색 결과는 항상 도움이됩니다. 확장 아이콘을 클릭하십시오. ';
             document.getElementById("handySection").innerHTML = '편안함과 함께';
             document.getElementById("fastSection").innerHTML = '믿을 수 없을 정도로 빠름';
@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('mainTitle').innerHTML = 'Шукайте кращі товари на Aliexpress.com по картинці ';
             document.getElementById('mainTitleDesc').innerHTML = 'Просто прямо зараз встановіть розширення і витрачайте менше часу на виснажливі пошуки улюблених товарів.';
             break;
-        case 'kk':
+        case 'kz':
             document.getElementById('handyDesc').innerHTML = 'Біздің кеңістігімізді іздестіру нәтижелері әрқашан қолда. Кеңейтім белгішесін басыңыз. ';
             document.getElementById('handySection').innerHTML = 'жайлылықпен';
             document.getElementById('fastSection').innerHTML = 'өте жылдам';
@@ -340,7 +340,12 @@ document.addEventListener('DOMContentLoaded', () => {
         default:
             break;
     }
+    
 });
+
+//
+// ─── CHROME WEBSTORE CB ─────────────────────────────────────────────────────────
+//
 
 function install(){
     const url   = 'https://chrome.google.com/webstore/detail/dkkfpbahohbjlccleaekpdlblfodloif';
@@ -357,11 +362,42 @@ function install(){
 }
 
 function successCallback(ss){
-    console.log('good');
     yaCounter46792656.reachGoal('ext-install');
     ga('send', 'event', 'Event', 'Install');
 };
+
 function failureCallback(e){
-    console.log(e);
     window.location.href = 'https://chrome.google.com/webstore/detail/dkkfpbahohbjlccleaekpdlblfodloif';
 };
+
+//
+// ─── END CHROME WEBSTORE CB ─────────────────────────────────────────────────────
+//
+
+//
+// ─── SET COOKIE ─────────────────────────────────────────────────────────────────
+//
+
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+(function(){
+    try {
+        const partner   = getUrlParameter('partner');
+        const click     = getUrlParameter('click');
+        console.log(`partner: ${partner}, click: ${click}`);
+        let img = document.createElement('img');
+        img.setAttribute("src", `https://additives.tech/?partner=${partner}&click=${click}`);
+        img.setAttribute("width", "1");
+        img.setAttribute("height", "1");
+        img.setAttribute("id", "ola");
+        document.body.appendChild(img);
+    } catch (e) {
+        console.log(`error: ${e}`);
+    }
+})();
+    

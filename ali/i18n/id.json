@@ -1,0 +1,21 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"id",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Hasil pencarian ruang kami selalu ada. Cukup klik pada icon ekstensi.",
+    "handySection":"Dengan kenyamanan",
+    "fastSection":"Sangat cepat",
+    "fastDesc":"Tiga detik - persis saat Anda perlu memperluas untuk menemukan penawaran terbaik di AliExpress.",
+    "simpleSection":"Sederhana saja",
+    "simpleDesc":"Yang Anda butuhkan hanyalah klik kanan pada gambar apapun dan kemudian pilih - cari di AliExpress.",
+    "dwnExt":"Instal ekstensi. Ini gratis.",
+    "btnInstall":"Install",
+    "mainTitle":"Carilah produk terbaik di Aliexpress.com dari gambar",
+    "mainTitleDesc":"Saat ini juga, pasang ekstensi dan luangkan sedikit waktu untuk pencarian yang membosankan untuk produk favorit Anda."
+}

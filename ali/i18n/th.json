@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"th",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"ผลการค้นหาพื้นที่ของเราอยู่ในมือ เพียงคลิกไอคอนส่วนขยาย ",
+    "handySection":"ด้วยความสบาย",
+    "fastSection":"ไม่น่าเชื่อเร็ว",
+    "fastDesc":"สามวินาที - ตรงเวลาที่คุณต้องการขยายเพื่อค้นหาข้อเสนอที่ดีที่สุดใน AliExpress",
+    "simpleSection":"มันง่าย",
+    "simpleDesc":"คุณเพียงแค่คลิกขวาที่รูปภาพใดก็ได้แล้วเลือก - ค้นหาใน AliExpress",
+    "dwnExt":"ติดตั้งส่วนขยาย เป็นอิสระอย่างแน่นอน ",
+    "btnInstall":"ติดตั้ง",
+    "btnInstallTwo":"ติดตั้ง",
+    "mainTitle":"มองหาผลิตภัณฑ์ที่ดีที่สุดจาก Aliexpress.com จากภาพ",
+    "mainTitleDesc":"ตอนนี้ติดตั้งส่วนขยายและใช้เวลาน้อยลงในการค้นหาที่น่าเบื่อสำหรับผลิตภัณฑ์โปรดของคุณ"
+}

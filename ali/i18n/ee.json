@@ -1,0 +1,22 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bogdan"
+        ],
+       "last-update":"2018-19-21",
+       "locale":"ee",
+       "message-documentation": "qqq"
+    },
+    "title":"Chrome Extension",
+    "handyDesc":"Meie ruumiotsingu tulemused on alati käepärast. Lihtsalt klõpsake pikendusikoonil. ",
+    "handySection":"mugavusega",
+    "fastSection":"Uskumatult kiire",
+    "fastDesc":"Kolm sekundit - täpselt aeg, mida peate laiendama, et leida parimaid pakkumisi AliExpress\"is.",
+    "simpleSection":"See on lihtne",
+    "simpleDesc":"Kõik, mida vajate, on paremklõps mis tahes pildil ja seejärel valida - otsida AliExpress\"is.",
+    "dwnExt":"Paigaldage laiendus. See on täiesti tasuta. ",
+    "btnInstall":"Install",
+    "btnInstallTwo":"Install",
+    "mainTitle":"Otsige Aliexpress.comist parimaid tooteid pildilt",
+    "mainTitleDesc":"Praegu installige laiendus ja kulutage vähem aega lemmiktooteid otsivatele otsingutele."
+}
